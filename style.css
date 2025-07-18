@@ -1,0 +1,125 @@
+/*font */
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+/* shared style*/
+.display-flex{
+    display: flex;
+}
+
+/*nav start*/
+.nav-header-bg{
+    background: rgba(255, 144, 14, 0.1);
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    
+}
+.nav-bar{
+    justify-content: space-between;
+     margin: 0 150px;
+}
+
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: bold;
+  
+}
+.item-lists{
+    align-items: center;
+    gap: 10px;
+}
+.item-list{
+    list-style: none;
+    
+}
+.item-link{
+    text-decoration: none;
+}
+/*banner*/
+.banner-content{
+    margin: 50px 150px;
+    
+}
+.banner-container{
+    max-width: 600px;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    
+}
+.banner-title{
+    color: #131313;
+    font-size:4rem;
+    font-weight: bold;
+}
+.banner-decription{
+    color: #727272;
+
+}
+.banner-btn{
+    
+    color: #FFFFFF;
+    background-color: #FF900E;
+    width: 150px;
+    padding: 17px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.banner-img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*quick section start*/
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.quick-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+
+.quick-section-decription{
+    max-width: 500px;
+    margin-left: 73px;
+}
+/* medis quary start*/
+/* small device*/
+@media screen and (max-width:576px) {
+    .nav-bar,
+    .item-lists,
+    .quick-section{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    .banner-container{
+        text-align: center;
+        justify-content: center;
+    }
+    .img-container{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        align-items: center;
+    }
+    
+    
+
+}
