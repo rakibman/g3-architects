@@ -76,6 +76,20 @@
     margin-bottom: 20px;
 }
 /*quick section start*/
+.quick-section-title{
+    font-size: 2.8rem;
+}
+.title-1{
+    color: #727272;
+}
+.title-2{
+    color: #131313;
+    font-weight: bold;
+}
+.title-3{
+    color: #FF900E;
+}
+
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -142,6 +156,27 @@ main{
     padding: 20px 10px;
     border-radius: 5px;
 }
+/* sponsor section*/
+.sponsor-container{
+    max-width: 500px;
+    text-align: center;
+     margin: 100px auto;
+    
+}
+.sponsor-title{
+    font-size: 3.75rem;
+    margin: 0;
+   
+}
+.sponsor-info{
+    color: #727272;
+    
+}
+.sponsor-companis{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    filter: grayscale(100%);
+}
 /* medis quary start*/
 /* small device*/
 @media screen and (max-width:576px) {
@@ -165,7 +200,11 @@ main{
         align-items: center;
         
     }
-    
-    
+    .sponsor-companis{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        justify-content: center;
 
+    }
+    
 }
