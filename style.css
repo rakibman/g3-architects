@@ -91,19 +91,64 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
+
     
 }
-
-.quick-section-decription{
+.quick-section-img{
+    width: 200px;
+}
+ .quick-section-decription{
     max-width: 500px;
     margin-left: 73px;
+}
+/*some fact section*/
+.some-card-header{
+    margin: 100px 10px;
+}
+
+.some-title{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+   
+    
+}
+.some-decription{
+    color:#727272;
+    max-width: 540px;
+    
+    
+}
+.some-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.some-card-number{
+    font-size: 3rem;
+    margin:0;
+    margin-top: 10px;
+}
+.some-card-decription{
+    margin:0;
+    margin-top: 7px;
+    font-size: 1.25rem;
+}
+.some-card{
+    border: 1px solid #FF900E;
+    width: 220px;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 5px;
 }
 /* medis quary start*/
 /* small device*/
 @media screen and (max-width:576px) {
     .nav-bar,
     .item-lists,
-    .quick-section{
+    .quick-section,
+    .some-card-container{
         flex-direction: column;
     }
     .banner-title{
@@ -118,6 +163,7 @@ main{
         flex-direction: column;
         width: 250px;
         align-items: center;
+        
     }
     
     
