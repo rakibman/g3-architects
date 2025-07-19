@@ -229,10 +229,15 @@ main{
     border-radius: 5px;
 }
 /* sponsor section*/
-.sponsor-container{
-    max-width: 500px;
+.sponsor-section{
+    max-width: 1440px;
+    margin: 100px 20px;
+    
+}
+ .sponsor-container{
     text-align: center;
-     margin: 100px auto;
+    max-width: 500px;
+     margin-top: 60px auto;
     
 }
 .sponsor-title{
@@ -275,7 +280,7 @@ main{
     .sponsor-companis{
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        justify-content: center;
+        
         /*feacher section start*/
     }
     .Features-section{
@@ -289,11 +294,18 @@ main{
         width: 100%;
         
     }
-    .Features-section-title{
-        
-    }
+   
     .Features-section-decription{
         width: 100%;
+    }
+    /*exceperince button*/
+    .architect-img-btn{
+       width: 300px;
+       margin-left: 50px;
+       margin-top: 50px;
+    }
+    .btn-title-1{
+        font-size: 2rem;
     }
     
 }
