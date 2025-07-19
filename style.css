@@ -263,6 +263,7 @@ main{
     .some-card-container{
         flex-direction: column;
     }
+    /*banner*/
     .banner-title{
         font-size: 3rem;
     }
@@ -270,6 +271,7 @@ main{
         text-align: center;
         justify-content: center;
     }
+   
     .img-container{
         display: flex;
         flex-direction: column;
