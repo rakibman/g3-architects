@@ -274,11 +274,11 @@ main{
     }
     /* quick section */
     .quick-section-decription{
-        width: 300px;
+        width: 200px;
     }
     /*banner*/
     .banner-title{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .banner-container{
         text-align: center;
