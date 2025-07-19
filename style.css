@@ -274,7 +274,7 @@ main{
     }
     /* quick section */
     .quick-section-decription{
-        width: 200px;
+        max-width: 200px;
     }
     /*banner*/
     .banner-title{
