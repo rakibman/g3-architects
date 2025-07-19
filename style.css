@@ -63,10 +63,11 @@
 
 }
 .banner-btn{
-    
+    font-size: 20px;
+    font-weight: 600;
     color: #FFFFFF;
     background-color: #FF900E;
-    width: 150px;
+    width: 190px;
     padding: 17px 20px;
     border: none;
     border-radius: 8px;
@@ -78,6 +79,9 @@
 /*quick section start*/
 .quick-section-title{
     font-size: 2.8rem;
+}
+.quick-section-decription{
+    color: #727272;
 }
 .title-1{
     color: #727272;
@@ -111,7 +115,7 @@ main{
 .quick-section-img{
     width: 200px;
 }
- .quick-section-decription{
+ .quick-section-text-container{
     max-width: 500px;
     margin-left: 73px;
 }
@@ -169,7 +173,8 @@ main{
     border: none;
     border-radius: 8px;
     padding: 40px;
-    
+    margin-left: -70px;
+    margin-top: -70px;
 }
 .btn-title-1{
     color: #FFFFFF;
